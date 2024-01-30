@@ -1,0 +1,32 @@
+.navbar {
+    width: 100%;
+    height: 150px;
+    background-image: url(../../assets/bg-navbar.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+.logotipo {
+    max-width: 100px;
+    width: 12%;
+    padding: 10px 10px 10px 20px;
+    cursor: pointer;
+}
+.menu {
+    float: right;
+    padding: 35px 15px;
+}
+.menu a {
+    color: #000;
+    margin-right: 23px;
+    transition: .2s ease-in-out;
+    font-weight: 800;
+}
+.menu a:hover {
+    color: #d24434;
+}
+
+@media screen and (max-width: 1100px) {
+    .menu {
+        padding: 10px 10px;
+    }
+}

@@ -1,0 +1,37 @@
+.titulo-pedido {
+  font-weight: 900;
+}
+.lista-produtos {
+  height: calc(100% - 234px);
+  margin-right: 10px;
+  margin-left: 10px;
+  overflow: auto;
+}
+.cart-rodape {
+  margin-top: 20px;
+  border-top: 2px solid #e7e7e7;
+}
+.cart-valor {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 00;
+  color: black;
+}
+strong {
+  font-weight: 900;
+}
+.cart-button-close {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  transition: .2s ease-in-out;
+}
+.cart-button-close:hover {
+  opacity: 0.6;
+}

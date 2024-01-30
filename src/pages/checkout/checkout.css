@@ -1,0 +1,26 @@
+.checkout-container {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin: 25px;
+  padding: 20px;
+}
+.checkout-container h3,
+p {
+  margin-top: 0px;
+  color: #fff;
+}
+.checkout-container p {
+  margin: 0 0 2px 0;
+}
+.checkout-valores {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  color: #fff;
+  font-weight: 900;
+  border-top: 2px solid #ccc;
+  padding: 20px;
+}
+.btn-check {
+    border-radius: 4px;
+}
